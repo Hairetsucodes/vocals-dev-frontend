@@ -27,19 +27,17 @@ export default function Header() {
             >
               Use Cases
             </Link>
-            <Link
-              href="#docs"
-              className="text-muted-foreground hover:text-foreground transition-colors"
-            >
-              Docs
-            </Link>
+            <span className="text-muted-foreground cursor-not-allowed opacity-50">
+              Docs (Coming Soon)
+            </span>
           </nav>
           <div className="flex items-center space-x-4">
             <Button
               variant="outline"
-              className="btn-glass text-foreground border-border"
+              className="btn-glass text-foreground border-border cursor-not-allowed opacity-50"
+              disabled
             >
-              Get Started
+              Get Started (Coming Soon)
             </Button>
             <ModeToggle />
           </div>

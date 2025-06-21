@@ -16,16 +16,18 @@ export default function Hero() {
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button
             size="lg"
-            className="bg-[color:var(--brand-primary)] text-primary-foreground hover:bg-[color:var(--brand-primary-hover)] px-8 py-3"
+            className="bg-[color:var(--brand-primary)] text-primary-foreground cursor-not-allowed opacity-50 px-8 py-3"
+            disabled
           >
-            Start Building
+            Start Building (Coming Soon)
           </Button>
           <Button
             variant="outline"
             size="lg"
-            className="btn-glass text-foreground border-border px-8 py-3"
+            className="btn-glass text-foreground border-border cursor-not-allowed opacity-50 px-8 py-3"
+            disabled
           >
-            View Documentation
+            Documentation (Coming Soon)
           </Button>
         </div>
       </div>
